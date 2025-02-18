@@ -1,6 +1,6 @@
-## Create Poly App
+## Create Template App
 
-`create-poly-app`
+`create-template-app`
 
 ---
 
@@ -13,13 +13,13 @@ Usage:
 1. Install:
 
    ```
-   npm i -g create-poly-app
+   npm i -g create-template-app
    ```
 
 2. Run: _(creates project in cwd)_
 
    ```
-   create-poly-app <project_name> <new_origin?>
+   create-template-app <project_name> <new_origin?>
    ```
 
 3. Add: _(skip if `new_origin` arg was provided in step 2)_

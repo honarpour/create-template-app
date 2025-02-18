@@ -1,10 +1,10 @@
 {
-  "name": "create-poly-app",
+  "name": "create-template-app",
   "version": "1.0.0",
   "private": true,
   "type": "commonjs",
   "main": "main.js",
   "bin": {
-    "create-poly-app": "./main.js"
+    "create-template-app": "./main.js"
   }
 }

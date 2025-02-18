@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-const templateRepo = 'https://github.com/PolymathNetwork/launchpad-queue.git';
+const templateRepo = 'https://github.com/<username>/<repo-name>.git';
 
 const { exec } = require('child_process');
 const { promisify } = require('util');
@@ -12,7 +12,7 @@ const run = ({ cmd, msg }) =>
   });
 
 const [binPath, mainScriptPath, projectName, newOrigin] = process.argv;
-if (!projectName) throw new Error('Missing args');
+if (!projectName) throw new Error('Missing project name');
 
 const task = {
   createFolder: {
